@@ -90,6 +90,15 @@ MCP made tools **callable**. The Knowledge Seed Protocol makes knowledge and cap
 
 [`self`](https://github.com/wouterbeets/self) is a working runtime built on the loop: a single append-only event log, capabilities generated on the machine from declarations by a pluggable brain, and every installed script signed by a key that never leaves the instance. The whole system rebuilds from the log alone — no model, no network.
 
+## Experiments
+
+[`trial-001`](trial-001/) is the first falsifiable cross-architecture trial. It
+asks whether a small accountability and succession capability can move from an
+event-aware sender into a plain Python receiver without transferring executable
+code. The repository includes the profile, replayable seed, receiver-owned
+policy intervention, independent receiver, hostile cases, and reference result.
+Independent reproduction is still pending.
+
 ## Path forward
 
 1. Define the minimal seed format — events, lineage, manifest — inspectable with standard tools.

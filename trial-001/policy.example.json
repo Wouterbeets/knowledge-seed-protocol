@@ -1,0 +1,6 @@
+{
+  "reject_types": ["sender.private"],
+  "remap_types": {
+    "culture.practice": "local.culture.practice"
+  }
+}
