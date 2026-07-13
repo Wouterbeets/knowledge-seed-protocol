@@ -1,11 +1,26 @@
 # The Account Protocol
 
-**An open standard for moving records and capabilities between sovereign AI
-systems — as accounts a receiver reads and learns from, never as opaque code
-or bare assertions.**
+**Software has started growing to fit the person using it. This is the
+standard for what that becomes at scale: an open format for moving records
+and capabilities between sovereign minds — as accounts a receiver reads and
+learns from, never as opaque code or bare assertions.**
 
 *(Formerly the Knowledge Seed Protocol. The idea was always bigger than
 knowledge; the name caught up.)*
+
+## The experience this protects
+
+For the first time, software adapts to its person instead of the other way
+around: an instance whose vocabulary is coined from one life, whose
+capabilities appeared because one person asked, whose shape today came from
+their use of it yesterday. Millions of such systems will not converge — they
+will diverge, each fitted to the environment it grew in, and what each one
+knows and can do is valuable precisely *because* it is local. That value
+wants to move: the marine biologist's observation tool would matter to the
+lab across the bay; one family's meal-planning capability would matter to
+another. The question is how it moves without destroying what made it
+valuable — the ownership, the provenance, and the local fit itself. That is
+the whole subject of this protocol.
 
 ## The problem
 
