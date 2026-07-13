@@ -4,7 +4,7 @@ An account is a directory of plain text. It is the one wire format of the
 Account Protocol: everything that moves between instances moves as one of
 these, and every operation it supports — inspection, curation, redaction,
 translation — is a text editor. This spec is deliberately small enough to be
-held whole; its first readers are the brains that must honor it.
+held whole; its first readers are the minds that must honor it.
 
 ```
 account/
@@ -20,7 +20,7 @@ is tier 3 — shown work, replayable.
 ## intent.md — the telling
 
 Plain Markdown, written to be read by the human who audits first and the
-brain that learns second. It says who this is from, what it means, and what
+mind that learns second. It says who this is from, what it means, and what
 the giver hopes it becomes. For a capability account it fixes the public
 surface (names, arguments, behavior) and leaves the implementation to the
 learner. The telling is the only part of an account that is *meant* to
@@ -41,7 +41,7 @@ Rules, all mechanical:
 2. **Moments preserved.** A learner re-mints `id` and `seq` (they are local)
    but MUST keep `occurred_at`. A record arriving is history, not news.
 3. **Never through the model.** Planted events land byte-identical in the
-   receiver's log. The receiving brain reads the record; it never rewrites
+   receiver's log. The receiving mind reads the record; it never rewrites
    it. Translation into local vocabulary happens in the receiver's
    projections — the planted events stay foreign and honest.
 4. **Reserved vocabulary.** Every runtime has lifecycle events its kernel
@@ -55,10 +55,10 @@ Rules, all mechanical:
    as evidence, but it cannot speak in the receiving kernel's voice — a
    hostile account cannot install anything.
 5. **Lineage is inert by type.** `lineage.*` events are another instance's
-   history: reference material for the learning brain and for provenance,
+   history: reference material for the learning mind and for provenance,
    never operative. A capability account is exactly this — the giver's
    declarations and signed receipts as `lineage.*`, from which the learner's
-   brain derives its own declaration, compiled and signed locally.
+   mind derives its own declaration, compiled and signed locally.
 
 ## manifest.json — the attestation
 
@@ -80,7 +80,7 @@ Rules, all mechanical:
   (`ssh-keygen -Y sign -n account -f <key> record.jsonl`); `signer` is a name
   the receiver may look up in its own allowed-signers list
   (`ssh-keygen -Y verify`). The protocol adds no key distribution: a
-  signature answers *who to blame*, never *what the contents do to the brain
+  signature answers *who to blame*, never *what the contents do to the mind
   that reads them*. Identity narrows provenance; inspection remains the gate.
 
 ## Receipts — both sides remember
@@ -108,6 +108,6 @@ A runtime speaks the Account Protocol when:
    receipt;
 3. nothing carried by an account is ever executed or installed as received.
 
-Everything else — how the brain reads a telling, how projections translate a
+Everything else — how the mind reads a telling, how projections translate a
 foreign record, what a nursery or study page looks like — is the runtime's
 own character, not the protocol's business.
